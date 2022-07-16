@@ -1,0 +1,35 @@
+body {
+  background-size: cover;
+  background-image: url("https://i0.wp.com/www.csscodelab.com/wp-content/uploads/2019/11/stripe-hero-background-effect-html-css.png?fit=1062%2C631&ssl=1");
+}
+#signupbox.appear {
+  opacity: 1;
+  animation: fade-in 1s forwards;
+  display: block;
+}
+
+#signupbox.disapper {
+  animation: fade-out 1 forwards;
+  display: block;
+}
+#signupbox {
+  opacity: 0;
+  display: none;
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 40%;
+  margin: auto;
+  padding: 2rem;
+}
+
+#cancel-button {
+  background-color: aliceblue;
+  border: none;
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
